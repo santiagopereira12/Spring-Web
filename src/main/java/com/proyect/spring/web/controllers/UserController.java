@@ -12,7 +12,7 @@ public class UserController {
     public String details(Model model){
         model.addAttribute("title", "Hola Mundo with Spring Boot");
         model.addAttribute("name","Santiago");
-        model.addAttribute("lastname","Pereira");
+            model.addAttribute("lastname","Pereira");
         return "details";
     }
 }
